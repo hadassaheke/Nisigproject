@@ -8,11 +8,11 @@ body{
 }
 
 h1{
-    ;
+   color: black ;
 }
 
 .header-left{
-    width: 60%;
+    width: 70%;
     display: inline-block;
 }
 
@@ -27,6 +27,40 @@ h1{
     border: 1px solid;
 }
 
+.dropbtn{
+    color: white;
+    background-color: #2e8b57;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+}
+
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: green;
+    min-width: 250px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: white;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: grey;}
+
+
 .special{
    
     border-radius: 5px;
@@ -36,16 +70,17 @@ h1{
 .content{
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-position: right top;
 }
 
 div.content-left{
-    width: 30%;
+    width: 40%;
     display: inline-block;
 }
 
 div.content-right{
     display: inline-block;
-    width: 68%;
+    width: 50%;
 }
 
 .footer{
